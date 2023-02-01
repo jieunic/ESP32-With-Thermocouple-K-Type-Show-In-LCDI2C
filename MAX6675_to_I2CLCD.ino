@@ -6,11 +6,8 @@
 
 #define buttonOk 8
 #define buttonUp 12
-// 12
 #define buttonDown 13
-// 8
 #define Alarm 27
-// #define buttonStatus 7
 
 int menu = 0; //
 int thermoDO = 4;
@@ -244,5 +241,3 @@ void onAlarm() {
   }
   lcd.clear();
 }
-
-// Function For Main Menu
